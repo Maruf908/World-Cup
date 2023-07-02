@@ -2,3 +2,47 @@ body{
     font-family: 'Pacifico', cursive;
     font-family: 'Poppins', sans-serif;
 }
+/* banner section  */ 
+.container{
+    display: flex;
+    justify-content: center;
+}
+.banner-section{
+    width: 1200px; 
+    background-color: black; 
+    border-radius: 30px;
+    height: 600px; 
+    margin-top: 50px;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+   
+} 
+.left-banner{
+    color: white;
+    padding: 0px 40px;
+} 
+.h1-tag{
+    font-size: 50px;
+} 
+.p-tag{
+    font-size: 20px;
+}
+.btn{
+    background-color: #DD0000;
+    color: #FFFfff; 
+    font-size: 25px;
+    font-weight: 700;
+    padding: 20px 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.right-banner{
+    padding: 0px 40px;
+}
+.right-banner img{
+    width: 600px;
+   height: 600px;
+
+}
